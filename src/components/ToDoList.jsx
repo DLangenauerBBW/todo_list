@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import AddBox from "./AddBox";
 import TaskSection from './TaskSection';
 import FilterBox from './FilterBox';
-import { fetchTasks, addTask, editTask, deleteTask } from './lib/Api'; 
+import { fetchTasks, addTask, editTask, deleteTask } from './lib/api'; 
 import { sortData } from './lib/sortData';
 
 export default function ToDoList() {
