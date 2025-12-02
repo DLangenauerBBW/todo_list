@@ -19,7 +19,7 @@ export default function ToDoList() {
   const [completedTasks, setCompletedTasks] = useState([]);
   //State der angibt, welche Sortierung momentan aktuell ist
   const [sortBy, setSortBy] = useState('Prio Asc');
-  //Filterstates
+  
   const [priorityFilter, setPriorityFilter] = useState([1, 2, 3, 4, 5]);
   const [categoryFilter, setCategoryFilter] = useState(["Pending", "In Progress", "Completed"]);
 
